@@ -17,33 +17,47 @@
                 <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_New_RED.png</></P>
                 <P key="title"><>Psn logo 1 - sign in</></P>
             </T>
-			
-			
 			<T key="004" include="inc_Pair">
+                <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_New_RED.png</></P>
+                <P key="title"><>Psn logo 1 - package manager</></P>
+            </T>
+			
+			
+			<T key="005" include="inc_Pair">
                 <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_Old_RED.png</></P>
                 <P key="title"><>Psn logo 2 - normal</></P>
             </T>
-			<T key="005" include="inc_Pair">
+			<T key="006" include="inc_Pair">
                 <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_Old_RED.png</></P>
                 <P key="title"><>Psn logo 2 - ingame</></P>
             </T>
-			<T key="006" include="inc_Pair">
+			<T key="007" include="inc_Pair">
                 <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_Old_RED.png</></P>
                 <P key="title"><>Psn logo 2 - sign in</></P>
             </T>
+			<T key="008" include="inc_Pair">
+                <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_Old_RED.png</></P>
+                <P key="title"><>Psn logo 2 - package manager</></P>
+            </T>
 			
 			
-			<T key="007" include="inc_Pair">
+			
+			
+			<T key="009" include="inc_Pair">
                 <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_REBUG_RED.png</></P>
                 <P key="title"><>Psn logo 3 - normal</></P>
             </T>
-			<T key="008" include="inc_Pair">
+			<T key="010" include="inc_Pair">
                 <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_REBUG_RED.png</></P>
                 <P key="title"><>Psn logo 3 - ingame</></P>
             </T>
-			<T key="009" include="inc_Pair">
+			<T key="011" include="inc_Pair">
                 <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_REBUG_RED.png</></P>
                 <P key="title"><>Psn logo 3 - sign in</></P>
+            </T>
+			<T key="012" include="inc_Pair">
+                <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/PSN_REBUG_RED.png</></P>
+                <P key="title"><>Psn logo 3 - package manager</></P>
             </T>
 			
         </A>
@@ -57,6 +71,10 @@
 			<Q class="type:x-xmb/folder-pixmap" key="007" attr="007" src="#007_item"/>	
 			<Q class="type:x-xmb/folder-pixmap" key="008" attr="008" src="#008_item"/>	
 			<Q class="type:x-xmb/folder-pixmap" key="009" attr="009" src="#009_item"/>	
+			<Q class="type:x-xmb/folder-pixmap" key="010" attr="010" src="#010_item"/>	
+			<Q class="type:x-xmb/folder-pixmap" key="011" attr="011" src="#011_item"/>	
+			<Q class="type:x-xmb/folder-pixmap" key="012" attr="012" src="#012_item"/>	
+			
 			
         </I>
     </V>        
@@ -106,10 +124,6 @@ This will copy the npsignin_plugin.rco file to dev_blind/vsh/resource/  </></
             </A>
             <I><Q class="type:x-xmb/module-action" key="003_item" attr="003_item"/></I>
         </V>
-		
-		
-		
-		
 		<V id="004_item">
             <A>
                 <T key="004_item">
@@ -117,14 +131,19 @@ This will copy the npsignin_plugin.rco file to dev_blind/vsh/resource/  </></
                     <P key="title"><>The current psn logo will be overwritten, are you sure?</></P>
                     <P key="info"><>Press  to continue, press  to go back.
         
-This will copy the xmb_plugin_normal.rco file to dev_blind/vsh/resource/  </></P>
+This will copy the explore_plugin_full.rco file to dev_blind/vsh/resource/  </></P>
                     <P key="module_name"><>videodownloader_plugin</></P>
-					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_old_red_normal.rco#/dev_blind/vsh/resource/xmb_plugin_normal.rco</></P>
+					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_new_red_package_manager.rco#/dev_blind/vsh/resource/explore_plugin_full.rco</></P>
                     <P key="bar_action"><>none</></P>
                 </T>
             </A>
             <I><Q class="type:x-xmb/module-action" key="004_item" attr="004_item"/></I>
         </V>
+		
+		
+		
+		
+		
 		<V id="005_item">
             <A>
                 <T key="005_item">
@@ -132,9 +151,9 @@ This will copy the xmb_plugin_normal.rco file to dev_blind/vsh/resource/  </>
                     <P key="title"><>The current psn logo will be overwritten, are you sure?</></P>
                     <P key="info"><>Press  to continue, press  to go back.
         
-This will copy the xmb_ingame.rco file to dev_blind/vsh/resource/  </></P>
+This will copy the xmb_plugin_normal.rco file to dev_blind/vsh/resource/  </></P>
                     <P key="module_name"><>videodownloader_plugin</></P>
-					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_old_red_ingame.rco#/dev_blind/vsh/resource/xmb_ingame.rco</></P>
+					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_old_red_normal.rco#/dev_blind/vsh/resource/xmb_plugin_normal.rco</></P>
                     <P key="bar_action"><>none</></P>
                 </T>
             </A>
@@ -147,18 +166,14 @@ This will copy the xmb_ingame.rco file to dev_blind/vsh/resource/  </></P>
                     <P key="title"><>The current psn logo will be overwritten, are you sure?</></P>
                     <P key="info"><>Press  to continue, press  to go back.
         
-This will copy the npsignin_plugin.rco file to dev_blind/vsh/resource/  </></P>
+This will copy the xmb_ingame.rco file to dev_blind/vsh/resource/  </></P>
                     <P key="module_name"><>videodownloader_plugin</></P>
-					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_old_red_signin.rco#/dev_blind/vsh/resource/npsignin_plugin.rco</></P>
+					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_old_red_ingame.rco#/dev_blind/vsh/resource/xmb_ingame.rco</></P>
                     <P key="bar_action"><>none</></P>
                 </T>
             </A>
             <I><Q class="type:x-xmb/module-action" key="006_item" attr="006_item"/></I>
         </V>
-		
-		
-		
-		
 		<V id="007_item">
             <A>
                 <T key="007_item">
@@ -166,9 +181,9 @@ This will copy the npsignin_plugin.rco file to dev_blind/vsh/resource/  </></
                     <P key="title"><>The current psn logo will be overwritten, are you sure?</></P>
                     <P key="info"><>Press  to continue, press  to go back.
         
-This will copy the xmb_plugin_normal.rco file to dev_blind/vsh/resource/  </></P>
+This will copy the npsignin_plugin.rco file to dev_blind/vsh/resource/  </></P>
                     <P key="module_name"><>videodownloader_plugin</></P>
-					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_red_rebug_normal.rco#/dev_blind/vsh/resource/xmb_plugin_normal.rco</></P>
+					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_old_red_signin.rco#/dev_blind/vsh/resource/npsignin_plugin.rco</></P>
                     <P key="bar_action"><>none</></P>
                 </T>
             </A>
@@ -181,17 +196,51 @@ This will copy the xmb_plugin_normal.rco file to dev_blind/vsh/resource/  </>
                     <P key="title"><>The current psn logo will be overwritten, are you sure?</></P>
                     <P key="info"><>Press  to continue, press  to go back.
         
+This will copy the explore_plugin_full.rco file to dev_blind/vsh/resource/  </></P>
+                    <P key="module_name"><>videodownloader_plugin</></P>
+					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_old_red_package_manager.rco#/dev_blind/vsh/resource/explore_plugin_full.rco</></P>
+                    <P key="bar_action"><>none</></P>
+                </T>
+            </A>
+            <I><Q class="type:x-xmb/module-action" key="008_item" attr="008_item"/></I>
+        </V>
+		
+		
+		
+		
+		<V id="009_item">
+            <A>
+                <T key="009_item">
+                    <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/IMAGES/flash_warning.png</></P>
+                    <P key="title"><>The current psn logo will be overwritten, are you sure?</></P>
+                    <P key="info"><>Press  to continue, press  to go back.
+        
+This will copy the xmb_plugin_normal.rco file to dev_blind/vsh/resource/  </></P>
+                    <P key="module_name"><>videodownloader_plugin</></P>
+					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_red_rebug_normal.rco#/dev_blind/vsh/resource/xmb_plugin_normal.rco</></P>
+                    <P key="bar_action"><>none</></P>
+                </T>
+            </A>
+            <I><Q class="type:x-xmb/module-action" key="009_item" attr="009_item"/></I>
+        </V>
+		<V id="010_item">
+            <A>
+                <T key="010_item">
+                    <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/IMAGES/flash_warning.png</></P>
+                    <P key="title"><>The current psn logo will be overwritten, are you sure?</></P>
+                    <P key="info"><>Press  to continue, press  to go back.
+        
 This will copy the xmb_ingame.rco file to dev_blind/vsh/resource/  </></P>
                     <P key="module_name"><>videodownloader_plugin</></P>
 					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_red_rebug_ingame.rco#/dev_blind/vsh/resource/xmb_ingame.rco</></P>
                     <P key="bar_action"><>none</></P>
                 </T>
             </A>
-            <I><Q class="type:x-xmb/module-action" key="008_item" attr="008_item"/></I>
+            <I><Q class="type:x-xmb/module-action" key="010_item" attr="010_item"/></I>
         </V>
-		<V id="009_item">
+		<V id="011_item">
             <A>
-                <T key="009_item">
+                <T key="011_item">
                     <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/IMAGES/flash_warning.png</></P>
                     <P key="title"><>The current psn logo will be overwritten, are you sure?</></P>
                     <P key="info"><>Press  to continue, press  to go back.
@@ -202,6 +251,23 @@ This will copy the npsignin_plugin.rco file to dev_blind/vsh/resource/  </></
                     <P key="bar_action"><>none</></P>
                 </T>
             </A>
-            <I><Q class="type:x-xmb/module-action" key="009_item" attr="009_item"/></I>
+            <I><Q class="type:x-xmb/module-action" key="011_item" attr="011_item"/></I>
         </V>
+		<V id="012_item">
+            <A>
+                <T key="012_item">
+                    <P key="icon"><>/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/IMAGES/flash_warning.png</></P>
+                    <P key="title"><>The current psn logo will be overwritten, are you sure?</></P>
+                    <P key="info"><>Press  to continue, press  to go back.
+        
+This will copy the explore_plugin_full.rco file to dev_blind/vsh/resource/  </></P>
+                    <P key="module_name"><>videodownloader_plugin</></P>
+					<P key="module_action"><>fcopy#/dev_hdd0/game/ZYFXSTORE/USRDIR/xml/custom/psn/psn_rebugged/rebugged_red_rebug_package_manager.rco#/dev_blind/vsh/resource/explore_plugin_full.rco</></P>
+                    <P key="bar_action"><>none</></P>
+                </T>
+            </A>
+            <I><Q class="type:x-xmb/module-action" key="012_item" attr="012_item"/></I>
+        </V>
+		
+		
 </X>
