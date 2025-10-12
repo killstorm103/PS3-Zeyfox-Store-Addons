@@ -1,5 +1,5 @@
 Back up all of your rco files before doing this (make sure you don't change the name of the files)
-make sure your ps3 is connected to Wifi and you know your ps3's IP
+make sure your ps3 is connected to Wifi and you know your ps3's IP (+ download & install Webman mod on your ps3)
 download and install FilleZilla Client (on your pc/laptop) if you don't have it already
 if something goes wrong you can use FilleZilla to connect to your ps3 and
 in the Remote site you can type in: /dev_blind and go to /dev_blind/vsh/resource
