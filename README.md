@@ -6,7 +6,7 @@ in the Remote site you can type in: /dev_blind and go to /dev_blind/vsh/resource
 and copy the back up rco files onto the ps3
 and then restart the ps3 and it should be fixed, i would also recommend reinstalling your CFW
 
-if you want to do this go for it but i take responsibillty for any Damage or Breakage this might do to your ps3!
+if you want to do this go for it but i take no responsibillty for any Damage or Breakage this might do to your ps3!
 
 all icons/rcos have been tested by me, on my Evilnat CFW (4.92.2, DEX)
 Proceed With Caution if your ps3's system firmware is newer or older than mine, these rcos have only been tested on Evilnat Custom Firmware it may break your console if your on different Custom Firmware like Rebug or if your on PS3Hen and not CFW
